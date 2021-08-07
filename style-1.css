@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#div1{
+    background-color: black;
+    border: 4px solid brown;
+    border-radius:10px ;
+    display: block;
+}
+
+h1{
+    color: white;
+   font-weight: bold; 
+   font-size: 55px;
+   padding-left: 275px;
+   text-decoration: underline;
+}
+
+#ul1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   list-style: none;
+}
+
+li{
+    padding-top: 35px;
+    transition: all 1s ease-in-out;
+}
+
+li:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+li a{
+    padding: 30px;
+   text-decoration: none;
+   color: white;
+}
+.box{
+    border: 2px solid black;
+}
+
+#div2{
+    border: 2px solid black;
+    display: grid;
+    /* height: 500px; */
+    /* grid-template-columns: 2fr 2fr; */
+    grid-template-areas: 
+    'box1  box2';
+    text-align: center;
+}
+#box1{
+    grid-area: box1;
+    animation: box1 10s ease-in 0s infinite forwards;
+    width: 800px;
+    /* height: 500px; */
+}
+
+@keyframes box1{
+    0%{
+        background: url('https://www.health.harvard.edu/media/content/images/L_1015_ExClass_TSk494389865.jpg') no-repeat center center ;
+        background-size: cover;
+    }
+    50%{
+          background: url('https://th.bing.com/th/id/R9436506be8dda9db89ac34812f08fb10?rik=zL%2fRsrwyWDfkdg&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f852376%2fimages%2fo-DAILY-EXERCISE-facebook.jpg&ehk=juoX%2bcJQqG5ackDpJt%2fnGIWIvJW8Mx4yVRJbVW2sb%2fM%3d&risl=&pid=ImgRaw')no-repeat center center ;
+          background-size: cover;
+    }
+    100%{
+         background: url('https://pixfeeds.com/images/fitness/exercises/1280-615398054-athletic-man-doing-stretching-exercises-in-nature.jpg') no-repeat center center ;
+         background-size: cover;
+    }
+}
+
+ #box2 {
+    font-family: 'Redressed', cursive;
+    background-color: black;
+    color: white;
+    grid-area: box2; 
+}
+
+#img{
+    height: 150px;
+}
+
+#img1{
+    height: 0px;
+    width: 0px;
+} 
+
+#div3{
+    display: grid;
+    /* grid-template-columns: 3fr 1fr; */
+    /* height: 520px; */
+    grid-template-areas:
+    'box3 box4';
+    text-align: center;
+}
+
+h2{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#box3{
+    grid-area: box3;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+}
+
+h3{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#box4{
+    grid-area: box4;
+    animation: box4 20s ease-in-out infinite forwards;
+    width: 400px;
+}
+
+@keyframes box4{
+    0%{
+       
+       background: url('https://i.makeagif.com/media/12-06-2015/7yPE55.gif')no-repeat center center/cover;
+    }
+    50%{
+        
+        background: url('https://osteitispubisclinic.com/wp-content/uploads/2016/11/concentric-muscle-contract.gif')no-repeat center center/cover;
+        
+    }
+    100%{
+        background: url('https://s3-us-west-1.amazonaws.com/castle-sites/applications/images/imuscle2/imuscle2-excercises.gif') no-repeat center center/cover;
+    }
+  
+}
+
+#div4{
+    display: grid;
+    height: 500px;
+    grid-template-columns: 2fr 2fr;
+ }
+
+#box6{
+    text-align: center;
+   background-color: rgba(0, 0, 0, 0.514);
+   color: black;
+}
+
+#box6 h2{
+    padding-top: 45px;
+}
+
+#form{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    height: 26px;
+}
+
+.btn:hover{
+    color:gray;
+    text-decoration: underline;
+} 
+#bmi{
+    margin-top: 40px;
+    padding-right: 130px;
+    font-size: 25px;
+}
+
+#box5{
+    text-align: center;
+    background: url('https://images.template.net/wp-content/uploads/2017/03/18122541/Fitness-Daily-Challenge-Logo.jpg')no-repeat center center/cover;
+}
+#box5 h2{
+    padding-top: 10px;
+}
+
+.h{
+    animation: h 1s  0s infinite forwards;
+}
+
+@keyframes h{
+    0%{
+        color: red;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color:greenyellow;
+    }
+}
+
+#div5{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+}
+.p1{
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#div5 a{
+    color: black;
+}
+
+#div5 a:hover{
+    color: white;
+} 
+@media only screen and (max-width:600px) {
+    h1{
+       font-size: 32px;
+       padding-left: 75px;
+    }
+    #ul1{
+       font-size: 20px;
+    }
+    li a{
+        padding: 10px;
+    }
+    #div2{
+        grid-template-areas:
+        'box1'
+        'box2';
+        text-align: center;
+    }
+    #box1{
+     width: 387px;
+     height: 200px;
+    } 
+    #div3{
+        grid-template-areas: 
+        'box3'
+        'box4';
+    }
+    #box4{
+    height: 200px;
+    width: 387px;
+    }
+      #div5{
+        padding-top: 180px;
+    }
+    #bmi{
+        margin-top: 50px;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width:900px) and (min-width:600px){
+    h1{
+       font-size: 32px;
+       padding-left: 139px;
+    }
+    #ul1{
+       font-size: 25px;
+    }
+    li a{
+        padding: 19px;
+    }
+    #box1{
+     width: 420px;
+     height: 800px;
+    } 
+    #div3{
+        grid-template-areas: 
+        'box3'
+        'box4';
+    }
+    #box4{
+    height: 200px;
+    width: 851px;
+    }
+      #div5{
+        padding-top: 10px;
+    }
+    #bmi{
+        margin-top: 50px;
+        padding-right: 0px;
+        font-size: 20px;
+    }
+}
