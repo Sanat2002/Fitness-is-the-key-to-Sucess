@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background: url('https://www.organicauthority.com/.image/t_share/MTU5MzI5NjcwNTYzNTcwOTAy/exercise.jpg') no-repeat center center/cover;
+}
+
+#div1{
+    background-color: black;
+    border: 4px solid brown;
+    border-radius:10px ;
+    display: block;
+}
+
+h1{
+    color: white;
+   font-weight: bold; 
+   font-size: 55px;
+   padding-left: 275px;
+   text-decoration: underline;
+}
+
+#ul1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   list-style: none;
+}
+
+li{
+    padding-top: 35px;
+    transition: all 1s ease-in-out;
+}
+
+li:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+li a{
+    padding: 30px;
+   text-decoration: none;
+   color: white;
+}
+#img1{
+    height: 0px;
+    width: 0px;
+}
+form{
+    margin: 0px 550px;
+    color: white;
+}
+form label{
+  font-size: 24px;
+}
+p{
+    margin-top: 10px;
+}
+form p input{
+    width: 404px;
+    height: 29px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+h2{
+    font-size: 35px;
+}
+button{
+    width: 140px;
+    height: 30px;
+    border-radius: 18px;
+}
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#div3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+}
+#div3 a{
+    color: black;
+}
+.p1{
+    margin-top: 0px;
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#div3 a:hover{
+    color: white;
+}
+@media only screen and (max-width:600px) {
+    h1{
+        font-size: 32px;
+        padding-left: 75px;
+     }
+     #ul1{
+        font-size: 20px;
+     }
+     li a{
+         padding: 10px;
+     }
+     form{
+         margin: 0px 50px;
+     }
+     body{
+         background-size: 393px 691px;
+     }
+     form p input{
+         width: 294px;
+     }
+     form p textarea{
+         width: 294px;
+         height: 150px;
+     }
+     form label{
+         font-size: 20px;
+     }
+}
+@media only screen and (max-width:900px) and (min-width:600px){
+    h1{
+        font-size: 32px;
+        padding-left: 139px;
+     }
+     #ul1{
+        font-size: 25px;
+     }
+     li a{
+         padding: 19px;
+     }
+     form{
+         margin: 0px 300px;
+     }
+     form p textarea{
+         width: 400px;
+     }
+}
