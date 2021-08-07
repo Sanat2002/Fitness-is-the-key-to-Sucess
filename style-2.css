@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#div1{
+    background-color: black;
+    border: 4px solid brown;
+    border-radius:10px ;
+    display: block;
+}
+
+h1{
+    color: white;
+   font-weight: bold; 
+   font-size: 55px;
+   padding-left: 275px;
+   text-decoration: underline;
+}
+
+#ul1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   list-style: none;
+}
+
+li{
+    padding-top: 35px;
+    transition: all 1s ease-in-out;
+}
+
+li:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+li a{
+    padding: 30px;
+   text-decoration: none;
+   color: white;
+}
+#img1{
+    height: 0px;
+    width: 0px;
+}
+#div2{
+    display: grid;
+    grid-template-areas: 
+    'box1 box2';
+}
+#box1{
+    grid-area: box1;
+    background:url('https://th.bing.com/th/id/Rb0afedb070eae25be550ecc5e3bb032a?rik=rbI7QjpKPQL%2fkg&riu=http%3a%2f%2fwww.sportstofit.com%2fwp-content%2fuploads%2f2019%2f02%2ffitgif-friday-reverse-lunge-with-pulse-slider-thumbnail-override-1504017362.gif&ehk=1H%2b0O40F3l4bJ5O%2fqnH7gdH%2fFU4aI8wwYAW3gU%2bzJ6Y%3d&risl=&pid=ImgRaw')no-repeat center center/cover;
+    width: 450px;
+}
+h3{
+    color: white;
+    font-size: 37px;
+}
+p{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#box2{
+    grid-area: box2;
+    background-color: black;
+}
+ #div3{
+    display: grid;
+    grid-template-areas: 
+    'box3 box4';
+}
+#box4{
+    grid-area: box4;
+    width: 450px;
+    background: url('https://www.fititnow.com/wp-content/uploads/2020/03/push-ups.gif')no-repeat center center/cover;
+}
+#box3{
+    grid-area: box3;
+    background-color: black;
+}
+
+#div4{
+    display: grid;
+    grid-template-areas: 
+    'box5 box6';
+}
+#box5{
+    grid-area: box5;
+    width: 450px;
+    background: url('https://calisthenicwarrior.com/wp-content/uploads/2019/05/e1b56c57-4c59-4120-bb8f-29e864fa9263.gif')no-repeat center center/cover;
+}
+#box6{
+    grid-area: box6;
+    background-color: black;
+}
+#div5{
+    display: grid;
+    grid-template-areas: 
+    'box7 box8';
+}
+#box8{
+    grid-area: box8;
+    width: 450px;
+    background: url('https://assets.menshealth.co.uk/main/assets/dumbbell-overhead-press.gif?mtime=1456929254')no-repeat center center/cover;
+}
+#box7{
+    grid-area: box7;
+    background-color: black;
+}
+#div6{
+    display: grid;
+    grid-template-areas: 
+    'box9 box10';
+}
+#box9{
+    grid-area: box9;
+    width: 450px;
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/workouts/2016/03/dumbbellrow-1457030613.gif?resize=480:*')no-repeat center center/cover;
+}
+#box10{
+    grid-area: box10;
+    background-color: black;
+}
+#div7{
+    display: grid;
+    grid-template-areas: 
+    'box11 box12';
+}
+#box12{
+    grid-area: box12;
+    width: 450px;
+    background: url('https://i.pinimg.com/originals/e4/8d/83/e48d83e77a6cf2e9c0510f3ae0aa8617.gif')no-repeat center center/cover;
+}
+#box11{
+    grid-area: box11;
+    background-color: black;
+}
+#div8{
+    display: grid;
+
+    grid-template-areas: 
+    'box13 box14';
+}
+#box13{
+    grid-area: box13;
+    width: 450px;
+    background: url('https://media1.tenor.com/images/fc8a230c037b69697faac61ce7f5315d/tenor.gif?itemid=10862744')no-repeat center center/cover;
+}
+#box14{
+    grid-area: box14;
+    background-color: black;
+}
+#div9{
+    display: grid;
+    grid-template-areas: 
+    'box15 box16';
+}
+#box16{
+    grid-area: box16;
+    width: 450px;
+    background: url('https://www.yomeentreno.com/wp-content/uploads/2020/03/Side_Plank_Crunch.gif')no-repeat center center/cover;
+}
+#box15{
+    grid-area: box15;
+    background-color: black;
+}
+#div10{
+    display: grid;
+    grid-template-areas: 
+    'box17 box18';
+}
+#box17{
+    grid-area: box17;
+    width: 450px;
+    background: url('https://i.pinimg.com/originals/01/e7/0a/01e70aa7b2df061fe1fa4f4eefc877b5.gif')no-repeat center center/cover;
+}
+#box18{
+    grid-area: box18;
+    background-color: black;
+}
+#div11{
+    display: grid;
+    grid-template-areas: 
+    'box19 box20';
+}
+#box20{
+    grid-area: box20;
+    width: 450px;
+    background: url('https://calisthenicwarrior.com/wp-content/uploads/2019/06/bridge-exercise-data.gif')no-repeat center center/cover;
+}
+#box19{
+    grid-area: box19;
+    background-color: black;
+}
+
+#div12{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+#div12 a{
+    color: black;
+}
+#p1{
+    color: black;
+    padding: 5px;
+}
+#p2{
+    padding: 5px;
+}
+#div12 a:hover{
+    color: white;
+} 
+@media only screen and (max-width:600px) {
+    h1{
+        font-size: 32px;
+        padding-left: 75px;
+     }
+     #ul1{
+        font-size: 20px;
+     }
+     li a{
+         padding: 10px;
+     }
+     #div2{
+         grid-template-areas: 
+         'box1'
+         'box2';
+     }
+     #box1{
+         height: 300px;
+         width: 387px;
+     }
+     #div3{
+         grid-template-areas: 
+         'box4'
+         'box3';
+     }
+     #box4{
+         height: 300px;
+         width: 387px;
+     }
+     #div4{
+         grid-template-areas: 
+         'box5'
+         'box6';
+     }
+     #box5{
+         height: 300px;
+         width: 387px;
+     }
+     #div5{
+         grid-template-areas: 
+         'box8'
+         'box7';
+     }
+     #box8{
+         height: 300px;
+         width: 387px;
+     }
+     #div6{
+         grid-template-areas: 
+         'box9'
+         'box10';
+     }
+     #box9{
+         height: 300px;
+         width: 387px;
+     }
+     #div7{
+         grid-template-areas: 
+         'box12'
+         'box11';
+     }
+     #box12{
+         height: 300px;
+         width: 387px;
+     }
+     #div8{
+         grid-template-areas: 
+         'box13'
+         'box14';
+     }
+     #box13{
+         height: 300px;
+         width: 387px;
+     }
+     #div9{
+         grid-template-areas: 
+         'box16'
+         'box15';
+     }
+     #box16{
+         height: 300px;
+         width: 387px;
+     }
+     #div10{
+         grid-template-areas: 
+         'box17'
+         'box18';
+     }
+     #box17{
+         height: 300px;
+         width: 387px;
+     }
+     #div11{
+         grid-template-areas: 
+         'box20'
+         'box19';
+     }
+     #box20{
+         height: 300px;
+         width: 387px;
+     }
+}
+@media only screen and (max-width:900px) and (min-width:600px){
+    h1{
+        font-size: 32px;
+        padding-left: 139px;
+     }
+     #ul1{
+        font-size: 25px;
+     }
+     li a{
+         padding: 19px;
+     }
+     #box4{
+       background-size: 500px;
+     }
+     #box12{
+         background-size: 800px;
+     }
+     #box13{
+         background-size: 700px;
+     }
+     #box16{
+         background-size: 500px;
+     }
+     #box17{
+         background-size: 500px;
+     }
+     #box20{
+         background-size: 500px;
+     }
+    }
