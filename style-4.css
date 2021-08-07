@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+/* body{
+    background: url('https://d18zdz9g6n5za7.cloudfront.net/about/masthead-xs@2X.jpg')no-repeat center center/cover;
+} */
+#div1{
+    background-color: black;
+    border: 4px solid brown;
+    border-radius:10px ;
+    display: block;
+}
+
+h1{
+    color: white;
+   font-weight: bold; 
+   font-size: 55px;
+   padding-left: 275px;
+   text-decoration: underline;
+}
+
+#ul1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   list-style: none;
+}
+
+li{
+    padding-top: 35px;
+    transition: all 1s ease-in-out;
+}
+
+li:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+li a{
+    padding: 30px;
+   text-decoration: none;
+   color: white;
+}
+#img1{
+    height: 0px;
+    width: 0px;
+}
+#div2{
+    background: url('https://d18zdz9g6n5za7.cloudfront.net/about/masthead-xs@2X.jpg')no-repeat center center/cover;
+    height: 700px;
+}
+#t1{
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 300px;
+}
+#p1{
+    font-size: 39px;
+    padding-left: 200px;
+}
+#t2{
+    font-size: 35px;
+    padding-top: 4px;
+    padding-left: 300px;
+    padding-bottom: 10px;
+   font-family: 'Playfair Display', serif;
+   text-decoration: underline;
+}
+#p2{
+    font-size: 20px;
+    padding-left: 340px;
+    padding-right: 400px;
+    font-family: 'Playfair Display', serif;
+}
+#div4{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+#div4 a{
+    color: black;
+}
+.p1{
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#div4 a:hover{
+    color: white;
+}
+@media only screen and (max-width:600px) {
+    h1{
+        font-size: 32px;
+        padding-left: 75px;
+     }
+     #ul1{
+        font-size: 20px;
+     }
+     li a{
+         padding: 10px;
+     }
+     #div2{
+         background-size: 393px 300px;
+         /* background-attachment: fixed; */
+         /* background-size: cover; */
+         height: 300px;
+     }
+     #t1{
+         padding-left: 10px;
+         padding-top: 100px;
+         font-size: 15px;
+     }
+     #p1{
+         padding-left: 10px;
+         font-size: 20px;
+     }
+     #t2{
+         padding-left: 10px;
+         font-size: 30px;
+         text-decoration: underline;
+     }
+     #p2{
+         padding-left: 10px;
+         padding-right: 0px;
+     }
+}
+@media only screen and (max-width:900px) and (min-width:600px){
+    h1{
+        font-size: 32px;
+        padding-left: 139px;
+     }
+     #ul1{
+        font-size: 25px;
+     }
+     li a{
+         padding: 19px;
+     }
+     #p2{
+        padding-right: 0px;
+        padding-left: 5px;
+     }
+     #t2{
+         padding-left: 100px;
+     }
+}
